@@ -27,5 +27,8 @@
     <ClCompile Include="Inline_ASM_shellcode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Import_Adress_Table_Hooking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -23,7 +23,7 @@ int __stdcall HookedMessageBox(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT 
 /// this function hooks a mesageBoxA function into my personal function.
 /// </summary>
 /// <returns>0  if no errors occured, otherwise returns 1</returns>
-int main() {
+int StartHooking() {
   /* show messageBox before hooking */
   MessageBoxA(NULL, "hi", "hi", MB_OK);
 

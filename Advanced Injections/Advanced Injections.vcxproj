@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="APC_inject.cpp" />
     <ClCompile Include="DLL_Injection.cpp" />
+    <ClCompile Include="Import_Adress_Table_Hooking.cpp" />
     <ClCompile Include="Inline_ASM_shellcode.cpp" />
     <ClCompile Include="WIN_API_Hooking.cpp" />
   </ItemGroup>
